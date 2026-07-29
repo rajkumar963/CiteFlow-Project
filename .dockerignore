@@ -1,0 +1,17 @@
+.venv
+__pycache__/
+*.py[oc]
+.pytest_cache/
+.git
+.gitignore
+.env
+*.log
+logs/
+.vscode/
+.idea/
+vector_db/*
+!vector_db/.gitkeep
+tests/
+README.md
+DOCUMENTATION.md
+INTERVIEW.md

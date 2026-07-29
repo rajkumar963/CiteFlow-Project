@@ -1,0 +1,29 @@
+[project]
+name = "research-assistant"
+version = "0.1.0"
+description = "AI-powered research assistant that searches the web, retrieves relevant passages via semantic search (RAG), and generates cited summaries using an LLM."
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "ddgs>=9.14.4",
+    "faiss-cpu>=1.14.3",
+    "fastapi>=0.139.0",
+    "groq>=1.5.0",
+    "langchain>=1.3.11",
+    "langchain-community>=0.4.2",
+    "numpy>=2.5.0",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.2",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "sentence-transformers>=5.6.0",
+    "streamlit>=1.58.0",
+    "uvicorn[standard]>=0.49.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+    "pytest-mock>=3.15.1",
+]
